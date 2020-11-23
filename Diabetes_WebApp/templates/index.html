@@ -1,0 +1,87 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Diabetes Prediction</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="{% static 'css/style.css' %}">
+		
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="{% static 'fonts/material-design-iconic-font/css/material-design-iconic-font.min.css' %}">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="{% url 'result' %}">
+					<h3>Diabetes Prediction</h3>
+					<p>Just put your information, and our AI will predict wether you have diabetes or not.</p>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="Pregnancies">
+						<span>Number of Pregnancies</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="Glucose">
+						<span for="">Glucose</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="BloodPressure">
+						<span for="">Blood Pressure</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="SkinThickness">
+						<span for="">Skin Thickness</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="Insulin">
+						<span for="">Insulin</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="BMI">
+						<span for="">BMI (Body Mass Index)</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="DiabetesPedigreeFunction">
+						<span for="">Diabetes Pedigree Function</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+						<input type="text" class="form-control"  required name="Age">
+						<span for="">Age</span>
+						<span class="border"></span>
+					</label>
+					<button>Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+                    </button>
+				</form>
+			</div>
+		</div>
+	
+
+	<div class="footer">
+		<p class="footer-text-left"> © 2020 Copyright: Leonardo França Bessa </p>
+		<div class="footer-content-right">
+  		<a href="https://github.com/LeoFrancaBessa" target="_blank"><img src="{% static 'images/github.jpeg' %}" class="icon-style" alt="Github icon" target="blank"></a>
+		</div>
+		<div class="footer-content-right">
+  		<a href="https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/" target="_blank"><img src="{% static 'images/linkedin.png' %}" class="icon-style" alt="Linkedin icon"</a>
+		</div>
+		<div class="footer-content-right">
+  		<a href="https://www.instagram.com/leofranca___/" target="_blank"><img src="{% static 'images/instagram.png' %}" class="icon-style" alt="Instagram icon"></a>
+		</div>
+	</div>
+
+
+	</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
