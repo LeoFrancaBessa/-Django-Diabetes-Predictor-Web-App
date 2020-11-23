@@ -17,7 +17,7 @@ Link: [https://diabates-predictor.herokuapp.com/](https://diabates-predictor.her
 [![](https://i.imgur.com/54J9Prl.png)](https://diabates-predictor.herokuapp.com/)
 
 ## Overview
-This is a classifation app build in the Django Framework. This is a classifation app build in the Django Framework. The trained model takes the informations about the pacient as a input, and predict the class: Diabetes or Healthy.
+This is a classifation app build in the Django Framework. The trained model takes the informations about the pacient as a input, and predict the class: Diabetes or Healthy.
 
 ## Motivation
 In this lockdown period, people are afraid to go to medical appointments for fear of contracting the new coronavirus, and because of that, many diseases can go unnoticed. With this app, people can know if they have a high chance of having diabetes without leaving home, the only thing they need to do is put their information on the website and wait for the result.
