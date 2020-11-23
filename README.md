@@ -2,6 +2,7 @@
 
 ## Table of Content
   * [Demo](#demo)
+  * [Team](#team)
   * [Overview](#overview)
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
@@ -12,7 +13,6 @@
   * [Directory Tree](#directory-tree)
   * [To Do](#to-do)
   * [Bug / Feature Request](#bug---feature-request)
-  * [Team](#team)
   * [License](#license)
   * [Credits](#credits)
 
@@ -20,6 +20,11 @@
 Link: [https://diabates-predictor.herokuapp.com/](https://diabates-predictor.herokuapp.com/)
 
 [![](https://i.imgur.com/54J9Prl.png)](https://diabates-predictor.herokuapp.com/)
+
+## Team
+[![Leonardo França Bessa](https://avatars2.githubusercontent.com/u/22757584?s=460&u=34b2e3fde44b13d47ce00e372cf66db078a8e300&v=4)](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |
+-|
+[Leonardo França Bessa](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |)
 
 ## Overview
 This is a classifation app build in the Django Framework. This is a classifation app build in the Django Framework. The trained model takes the informations about the pacient as a input, and predict the class: Diabetes or Healthy.
