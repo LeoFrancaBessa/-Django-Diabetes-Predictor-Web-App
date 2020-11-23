@@ -15,3 +15,8 @@
   * [Team](#team)
   * [License](#license)
   * [Credits](#credits)
+
+## Demo
+Link: [https://diabates-predictor.herokuapp.com/](https://diabates-predictor.herokuapp.com/)
+
+[![](https://i.imgur.com/54J9Prl.png)](https://diabates-predictor.herokuapp.com/)
