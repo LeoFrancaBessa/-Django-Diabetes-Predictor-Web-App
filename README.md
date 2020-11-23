@@ -39,8 +39,10 @@ This project is divided into two parts:
 ## Machine Learning Model
 In this classification problem, a voting classifier based on: XGBoost, SVM's, Extra Trees and Random Forests was used to predict the class. For more information about the code and the techniques used, check out the Jupyter notebook in the "Machine Learning Model Folder".
 
+
 ## Data Collection
-The dataset used was the Pima Indians Diabetes Database, available on [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database))
+The dataset used was the Pima Indians Diabetes Database, available on [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+
 
 ## Team
 [![Leonardo França Bessa](https://avatars2.githubusercontent.com/u/22757584?s=460&u=34b2e3fde44b13d47ce00e372cf66db078a8e300&v=4)](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |
@@ -48,4 +50,4 @@ The dataset used was the Pima Indians Diabetes Database, available on [Kaggle](h
 [Leonardo França Bessa](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |)
 
 ## Credits
-
+- [Creating a Machine Learning Based Web Application Using Django](https://towardsdatascience.com/creating-a-machine-learning-based-web-application-using-django-5444e0053a09): Withouth this amazing tutorial on how to build a app using Django, I wouldn't be able to develop this.
