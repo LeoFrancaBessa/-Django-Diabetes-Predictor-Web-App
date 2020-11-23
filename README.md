@@ -8,12 +8,7 @@
   * [Technical Aspect](#technical-aspect)
   * [Machine Learning Model](#machine-learning-model)
   * [Data Collection](#data-collection)
-  * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
-  * [To Do](#to-do)
-  * [Bug / Feature Request](#bug---feature-request)
   * [Team](#team)
-  * [License](#license)
   * [Credits](#credits)
 
 ## Demo
@@ -45,9 +40,12 @@ This project is divided into two parts:
 In this classification problem, a voting classifier based on: XGBoost, SVM's, Extra Trees and Random Forests was used to predict the class. For more information about the code and the techniques used, check out the Jupyter notebook in the "Machine Learning Model Folder".
 
 ## Data Collection
-The dataset used was the Pima Indians Diabetes Database, available on [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database)|)
+The dataset used was the Pima Indians Diabetes Database, available on [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database))
 
 ## Team
 [![Leonardo França Bessa](https://avatars2.githubusercontent.com/u/22757584?s=460&u=34b2e3fde44b13d47ce00e372cf66db078a8e300&v=4)](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |
 -|
 [Leonardo França Bessa](https://www.linkedin.com/in/leonardo-fran%C3%A7a-2246641a3/) |)
+
+## Credits
+
